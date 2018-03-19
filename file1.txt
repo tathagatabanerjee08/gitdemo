@@ -1,3 +1,30 @@
+o https://github.com/tathagatabanerjee08/gitdemo.git
+ * [new branch]      master -> master
+root@sample-VirtualBox:~/mycode# history
+    1  apt-get install git
+    2  mkdir mycode
+    3  ls
+    4  cd mycode
+    5  touch file1.txt file2.txt file3.txt
+    6  ls
+    7  git init
+    8  git config --global user.name "Tathagata"
+    9  git config --global user.email "Tathagatabanerjee08@gmail.com"
+   10  git status
+   11  git add *
+   12  git status
+   13  nano file1.txt
+   14  git status
+   15  git add *
+   16  git status
+   17  nano file1.txt
+   18  git commit -m "first commit"
+   19  git status
+   20  git remote add origib https://github.com/tathagatabanerjee08/gitdemo.git
+   21  git remote add origin https://github.com/tathagatabanerjee08/gitdemo.git
+   22  git push origin master
+   23  history
+root@sample-VirtualBox:~/mycode# S
 i am in training 
 
 
